@@ -13,8 +13,8 @@ import { Provider  as AuthProvider} from './src/context/authContext';
 
 const SwitchNavigator = createSwitchNavigator({
   loginFlow : createStackNavigator({
-    SignUp : SignUpScreen,
-    SignIn : SignInScreen
+    Signup : SignUpScreen,
+    Signin : SignInScreen
   }),
   mainFlow : createMaterialBottomTabNavigator({
     TrackList : createStackNavigator({
